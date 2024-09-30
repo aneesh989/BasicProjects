@@ -12,6 +12,7 @@ import Quiz from "./components/Quiz/Quiz";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer"
 import AnimatedCard from "./components/CocoCola/ColaCola"
+import Drink from "./components/Drinks/Drink"
 
 
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/Calculator" element={<Calculator />} />
           <Route path="/TodoList" element={<TodoList />} />
           <Route path="/AnimatedCard" element={<AnimatedCard />} />
+          <Route path="/Drink" element={<Drink />} />
         </Routes>
         <Footer />
       </div>

@@ -31,7 +31,7 @@ const Navbar = () => {
           <Link to="/AnimatedCard">AnimatedCard</Link>
         </li>
         <li>
-          <Link to="/Quiz">Quiz</Link>
+          <Link to="/Drink">Drinks</Link>
         </li>
       </ul>
     </nav>
